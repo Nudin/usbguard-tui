@@ -1,0 +1,14 @@
+A simple TUI for usbguard
+
+Features:
+- Clear view of all devices and their status
+- Toggle between allowed and denied by key
+- Disabling USB devices that are not hotplugable can not be disabled. This
+  prevents you from locking yourself out by accidentally disabling your USB
+  controller.
+
+Dependencies:
+  python3, urwid, usbguard
+
+Install:
+  $ sudo install usbguard-tui.py /usr/local/bin/usbguard-tui
